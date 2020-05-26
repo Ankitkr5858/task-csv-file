@@ -1,0 +1,60 @@
+$skin: #4db6ac;
+
+table {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+th {
+    background-color: $skin;
+    color: white;
+    height:40px;
+    text-align: center;
+    width: 20%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    width: 20%;
+    padding: 5px 5px;
+    min-width: 120px;
+}
+
+td {
+    background-color: white;
+}
